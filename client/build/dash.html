@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <title>Career Connect</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-12 phone-nav">
+              <a class="navbar-brand" href="#" id="logo">Career Connect Dashboard</a>
+            </div>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">AISOHDFDSF</a></li>
+              <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        <form action="/auth/google" method="GET">
+          <input class="btn btn-default btn-success" value="Sign in with Google" type="submit"/>
+        </form>
+        <hr>
+        <hr>
+        <form action="/auth/twitter" method="GET">
+          <input class="btn btn-default btn-success" value="Link Twitter" type="submit"/>
+        </form>
+        <hr>
+        <form action="/auth/linkedin" method="GET">
+          <input class="btn btn-default btn-success" value="Link LinkedIn" type="submit"/>
+        </form>
+        <hr>
+        <form action="/auth/facebook" method="GET">
+          <input class="btn btn-default btn-success" value="Link Facebook" type="submit"/>
+        </form>
+        <hr>
+        <form action="/auth/session" method="GET">
+          <input class="btn btn-default btn-success" value="Show session" type="submit"/>
+        </form>
+        <hr>
+
+        <form action="/api/fullSearch" method="GET">
+          <input class="btn btn-default btn-success" value="Get Full Search" type="submit"/>
+        </form>
+        <hr>
+
+        <p id="user"></p>
+
+        <h1>THIS IS A TEST</h1>
+
+      </body>
+    </html>

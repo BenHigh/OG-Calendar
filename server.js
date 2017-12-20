@@ -19,8 +19,8 @@ var Event = require("./models/events.js");
 mongoose.Promise = Promise;
 
 //???
-//var databaseUri = 'mongodb://localhost/calendar';
-var remoteDBUri = 'mongodb://heroku_cgghx8rd:1RandomPassword@ds143559.mlab.com:43559/heroku_cgghx8rd';
+var databaseUri = 'mongodb://localhost/calendar';
+// var remoteDBUri = 'mongodb://heroku_cgghx8rd:1RandomPassword@ds143559.mlab.com:43559/heroku_cgghx8rd';
 //if able to connect to heroku do so, otherwise connect to local database
 if (process.env.MONGODB_URI) {
   mongoose.connect(process.env.MONGODB_URI, {
