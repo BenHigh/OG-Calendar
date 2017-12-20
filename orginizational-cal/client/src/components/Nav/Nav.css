@@ -6,7 +6,8 @@
 /* NavTime Settings */
 /* left nav bar items */
 .navbar-time{
-	margin-top:.5%;
+	margin: auto;
+	margin-right: 0%;
 	margin-left: 2%;
 }
 
@@ -15,14 +16,15 @@
 }
 
 .navbar-name{
-	margin-right: 1.5%;
-	margin-top:.1%;
-	margin-left:40%;
+	margin: auto;
+	margin-right: 2%;
+	/*margin-top:.1%;*/
 }
 
 .navbar-icon{
-	margin-top:1.5%;
+	margin: auto;
 	margin-right: 2%;
+	margin-left: 0%;
 }
 
 

@@ -16,6 +16,7 @@
 /* add new item btn */
 .to-do-list .add-btn{
   border:none;
+  background: #fff;
   padding: 11px;
   font-size: 15px;
   color:#333;
@@ -46,8 +47,8 @@
   padding-top: 2px;
   font-size: 15px;
   color:#bbb;
+  background: #fff;
   transition: .2s ease-in-out;
-  background-color: none;
   float: right;
   margin-top:-20%;
   margin-right:12%;

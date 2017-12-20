@@ -24,7 +24,7 @@ class Groupon extends React.Component {
       	<div className="groupon-comp">
 			<a onClick={this.handleModalDisplay}>
 				<div className="groupon-div">
-					<i class="fa fa-meetup" aria-hidden="true"></i>
+					<i class="fa fa-users" aria-hidden="true"></i>
 					<button className="groupon-btn" type="button"> 
 						Groupon 
 					</button>

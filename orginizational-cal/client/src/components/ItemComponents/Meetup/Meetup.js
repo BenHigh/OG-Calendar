@@ -23,7 +23,7 @@ class Meetup extends React.Component {
       <div className="meetup-comp" onClick= {this.handleOpenModal} >
 			<a onClick={this.handleModalDisplay} >
 				<div className="meetup-div">
-					<i class="fa fa-sun-o" aria-hidden="true"></i>
+					<i class="fa fa-meetup" aria-hidden="true"></i>
 					<button className="meetup-btn" type="button">
 						Meetup
 					</button>
