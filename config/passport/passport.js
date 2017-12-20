@@ -24,7 +24,7 @@ module.exports = function(app, passport) {
     passport.use(new GoogleStrat({
         clientID: "368397746508-4kj26rurvv18sgt2at6g89493q3jbi9q.apps.googleusercontent.com",
         clientSecret: "SAIPIsGxN7yV10LVdV6hYcp4",
-        callbackURL: "http://127.0.0.1:3001/auth/google/dash",
+        callbackURL: "https://intense-savannah-48698.herokuapp.com/auth/google/dash",
         passReqToCallback : true
     }, function(req, token, refreshToken, profile, done){
         process.nextTick(function(){
@@ -93,7 +93,7 @@ module.exports = function(app, passport) {
     passport.use(new LinkedInStrat({
             consumerKey: "77v58mkw7yz9j9",
             consumerSecret: "2GZ4xZuHLGHcMhND",
-            callbackURL: "http://127.0.0.1:3001/auth/linkedin/dash",
+            callbackURL: "https://intense-savannah-48698.herokuapp.com/auth/linkedin/dash",
             passReqToCallback: true,
             profileFields: ['id', 'first-name', 'last-name', 'formatted-name', 'location', 'industry', 'current-share', 'summary', 'specialties', 'positions', 'api-standard-profile-request', 'public-profile-url', 'email-address', 'headline']
         }, function(req, token, tokenSecret, profile, done){
@@ -135,7 +135,7 @@ module.exports = function(app, passport) {
     passport.use(new TwitterStrat({
             consumerKey: "Cen815VuzCzhgjGayrhKiP4To",
             consumerSecret: "OvyfrKZ7vFsxgpIAeg2YtFhhGyvxzQ8XLb9XIrfwvnNuVr0ubo",
-            callbackURL: "http://127.0.0.1:3001/auth/twitter/dash",
+            callbackURL: "https://intense-savannah-48698.herokuapp.com/auth/twitter/dash",
             passReqToCallback: true
         }, function(req, token, tokenSecret, profile, done){
             //console.log(req.user);
